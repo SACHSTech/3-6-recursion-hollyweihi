@@ -11,5 +11,8 @@ public class PowerFunction {
 
     public static void main(String[] args){
         System.out.println(power(2, 3));
+        System.out.println(power(1,6));
+        System.out.println(power(0,5));
+        System.out.println(power(45678, 0));
     }
 }
