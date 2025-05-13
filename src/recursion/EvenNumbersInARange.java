@@ -14,5 +14,6 @@ public class EvenNumbersInARange {
 
     public static void main(String[] args) {
         printEvens(2, 10);
+        printEvens(-3, 13);
     }
 }
