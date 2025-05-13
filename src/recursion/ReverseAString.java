@@ -10,6 +10,7 @@ public class ReverseAString {
 
     public static void main(String[] args){
         System.out.println(reverse("Hello"));
-        System.out.println("");
+        System.out.println(reverse(""));
+        System.out.println(reverse("Hello World!"));
     }
 }
