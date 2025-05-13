@@ -15,5 +15,8 @@ public class CheckIfAStringIsAPalindrome {
     public static void main(String[] args){
         System.out.println(isPalindrome("HeooeH"));
         System.out.println(isPalindrome("adfkh"));
+        System.out.println(isPalindrome(""));
+        System.out.println(isPalindrome("A"));
+        System.out.println(isPalindrome("helloworlddlrowolleh"));
     }
 }
