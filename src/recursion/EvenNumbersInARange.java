@@ -9,5 +9,10 @@ public class EvenNumbersInARange {
             System.out.println(start);
         }
 
+        printEvens(start + 1, end);
+    }
+
+    public static void main(String[] args) {
+        printEvens(2, 10);
     }
 }
