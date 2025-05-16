@@ -9,7 +9,7 @@ public class EvenNumbersInARange {
         }
 
         // Recursive Case
-        if (start % 2 == 0) {
+        if (start % 2 == 0) { // Even number need to have a remainder of 0.
             System.out.println(start);
         }
 
