@@ -3,13 +3,13 @@ package recursion;
 public class CountDownTimer {
     public static void countDown(int n) {
         // Base Case
-        if(n <= 0){
+        if (n <= 0) {
             return;
         }
 
-        //Recursive Case
+        // Recursive Case
         System.out.println(n);
-        countDown(n-1);
+        countDown(n - 1);
     }
 
     public static void main(String[] args) {
