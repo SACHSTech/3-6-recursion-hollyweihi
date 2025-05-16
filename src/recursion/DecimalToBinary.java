@@ -2,6 +2,7 @@ package recursion;
 
 public class DecimalToBinary {
     public static String toBinary(int n){
+        // Base Case
         if (n == 0){
             return "0";
         }
@@ -10,6 +11,7 @@ public class DecimalToBinary {
             return "1";
         }
 
+        // Recursive case
         return toBinary(n/2) + (n%2);
     }
 
