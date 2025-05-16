@@ -2,9 +2,12 @@ package recursion;
 
 public class CountDownTimer {
     public static void countDown(int n) {
+        // Base Case
         if(n <= 0){
             return;
         }
+
+        //Recursive Case
         System.out.println(n);
         countDown(n-1);
     }
